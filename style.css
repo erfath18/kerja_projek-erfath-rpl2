@@ -1,0 +1,35 @@
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    width: 500px;
+    border: 2px solid black;
+    padding: 30px;
+    background-color: crimson;
+    border-radius: 20px;
+}
+input {
+    display: block;
+    border: 2px solid gray;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+}
+select {
+    display: block;
+    border: 2px solid gray;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+}
+button {
+    float: right ;
+    padding:  5px 20px;
+}
+button:hover {
+    opacity: 100%;
+    background-color: gray;
+}
